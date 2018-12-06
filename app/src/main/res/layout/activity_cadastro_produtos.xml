@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroProdutosActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="102dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="39dp"
+        android:text="Informações do Produto"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@+id/inpDescProduto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <EditText
+        android:id="@+id/inpDescProduto"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginRight="42dp"
+        android:layout_marginStart="42dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Descrição"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <EditText
+        android:id="@+id/inpQtdProduto"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="261dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="54dp"
+        android:ems="10"
+        android:inputType="textPersonName|number"
+        android:text="Quantidade"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/inpValorProdutos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inpDescProduto" />
+
+    <EditText
+        android:id="@+id/inpValorProdutos"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        android:layout_marginTop="54dp"
+        android:ems="10"
+        android:inputType="textEmailAddress|textPersonName|numberDecimal"
+        android:text="R$"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inpDescProduto" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="93dp"
+        android:layout_marginTop="121dp"
+        android:text="@string/btSalvar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inpValorProdutos"
+        tools:layout_editor_absoluteX="253dp"
+        android:background="@android:color/holo_green_dark"
+        android:textColor="@android:color/white"/>
+</android.support.constraint.ConstraintLayout>

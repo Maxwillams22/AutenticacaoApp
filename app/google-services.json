@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "839860388293",
+    "firebase_url": "https://authapp2-946d9.firebaseio.com",
+    "project_id": "authapp2-946d9",
+    "storage_bucket": "authapp2-946d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839860388293:android:f43e64cb621e7204",
+        "android_client_info": {
+          "package_name": "com.example.maxwillams.autenticacaoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839860388293-pviaoflk33kqo50h43d4tubk75a83uqu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.maxwillams.autenticacaoapp",
+            "certificate_hash": "51392fb8f979f12f9f462975e6d80072e754db9a"
+          }
+        },
+        {
+          "client_id": "839860388293-ujg84t1qkhgvrhukaon5omj0hb4jnric.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbik6kMH0j3Fmht-2yn_t3ByfwU5yHCVg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839860388293-ujg84t1qkhgvrhukaon5omj0hb4jnric.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

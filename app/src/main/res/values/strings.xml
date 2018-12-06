@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AutenticacaoApp</string>
+    <string name="txTitulo">Autenticação</string>
+    <string name="btEmail">E-mail</string>
+    <string name="btFacebook">Facebook</string>
+    <string name="btTwitter">Twitter</string>
+    <string name="btGithub">Github</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_cadastro_email">CadastroEmailActivity</string>
+    <string name="inpEmail">Email</string>
+    <string name="inpSenha">Senha</string>
+    <string name="btSalvar">Salvar</string>
+    <string name="title_activity_botao">botao</string>
+    <string name="title_activity_teste">teste</string>
+</resources>
